@@ -1,0 +1,48 @@
+{
+  "name": "StockAnalizer",
+  "short_name": "StockAnalizer",
+  "description": "Análisis técnico con ML, walk-forward y gestión de cartera",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "StockAnalizer.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "StockAnalizer.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "StockAnalizer.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Analizar",
+      "short_name": "Analizar",
+      "url": "./index.html",
+      "description": "Ir directamente al análisis"
+    },
+    {
+      "name": "Mi cartera",
+      "short_name": "Cartera",
+      "url": "./index.html",
+      "description": "Ver mis posiciones"
+    }
+  ]
+}
